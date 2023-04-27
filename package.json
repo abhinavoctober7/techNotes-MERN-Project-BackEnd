@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon --inspect"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +19,7 @@
     "express-async-handler": "^1.2.0",
     "moment": "^2.29.4",
     "mongodb": "^5.3.0",
-    "mongoose": "^7.0.4",
-    "mongoose-sequence": "^5.3.1"
+    "mongoose": "^7.0.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
